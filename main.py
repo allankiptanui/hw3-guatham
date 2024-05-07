@@ -24,11 +24,11 @@ def main():
 
     # Model parameters
     input_size = len(train_inputs[0])
-    hidden_size = 32
+    hidden_size = 16
     output_size = len(train_labels[0])
-    learning_rate = 0.05
+    learning_rate = 0.000001
     sigmoid_param = 1
-    epochs = 1000
+    epochs = 100
     initial_weights = None  # Weights will be initialized randomly
 
     # Initialize neural network
